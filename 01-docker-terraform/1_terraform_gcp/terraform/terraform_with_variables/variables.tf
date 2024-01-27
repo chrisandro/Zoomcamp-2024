@@ -8,31 +8,31 @@ variable "credentials" {
 
 variable "project" {
   description = "Project"
-  default     = "<Your Project ID>"
+  default     = "inspiring-team-411419"
 }
 
 variable "region" {
   description = "Region"
   #Update the below to your desired region
-  default     = "us-central1"
+  default     = "EU"
 }
 
 variable "location" {
   description = "Project Location"
   #Update the below to your desired location
-  default     = "US"
+  default     = "EU"
 }
 
 variable "bq_dataset_name" {
   description = "My BigQuery Dataset Name"
   #Update the below to what you want your dataset to be called
-  default     = "demo_dataset"
+  default     = "zoomcamp_dataset"
 }
 
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
   #Update the below to a unique bucket name
-  default     = "terraform-demo-terra-bucket"
+  default     = "inspiring-team-411419-terra-bucket"
 }
 
 variable "gcs_storage_class" {
